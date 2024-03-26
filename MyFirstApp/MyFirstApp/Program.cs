@@ -22,6 +22,7 @@ Console.WriteLine(average);
 
 static int GetMax(int[] numbers)
 {
+
     int maxim = 0;
     foreach (var number in numbers)
     {
@@ -32,4 +33,5 @@ static int GetMax(int[] numbers)
     }
 
     return maxim;
+
 }
